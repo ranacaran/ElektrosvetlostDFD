@@ -45,10 +45,15 @@ a {
 }
 .container__wrapper {
   position: absolute;
+  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .container__wrapper--image {
   height: 100%;
   width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=index.css.map */

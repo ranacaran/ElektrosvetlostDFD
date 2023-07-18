@@ -46,12 +46,16 @@ a {
 
   &__wrapper {
     position: absolute;
+    height: 100%;
+    width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 
     &--image {
       height: 100%;
       width: 50%;
+      object-fit: cover;
     }
   }
 }
