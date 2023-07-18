@@ -17,7 +17,12 @@ body {
   margin: 0;
   display: flex;
   align-items: center;
+  color: rgb(222, 204, 204);
+  font-size: larger;
+}
+.header__company-name--dfd {
   color: red;
+  font-size: xx-large;
 }
 .header__navigation {
   position: absolute;
@@ -56,4 +61,21 @@ a {
   width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.container__wrapper--text {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.text__big {
+  font-size: 4rem;
+}
+.text__small {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=index.css.map */
