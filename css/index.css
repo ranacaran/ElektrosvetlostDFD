@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  width: 100vw;
+  width: 100wh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,6 +9,7 @@ body {
   background-color: #302424;
   margin: 0;
   position: relative;
+  width: 100%;
 }
 .header__company-name {
   position: absolute;
@@ -47,7 +48,7 @@ a {
   -o-object-fit: contain;
      object-fit: contain;
   height: 90vh;
-  width: 100vw;
+  width: 100%;
 }
 .container__wrapper {
   position: absolute;
@@ -79,4 +80,23 @@ a {
 }
 .text__small {
   font-size: 1.5rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}
+.price__ .price__image {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+}
+.price__ .price__image--picture {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=index.css.map */
