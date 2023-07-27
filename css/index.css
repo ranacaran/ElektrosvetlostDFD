@@ -39,7 +39,7 @@ body {
 
 a {
   text-decoration: none;
-  color: aqua;
+  color: rgb(222, 204, 204);
   font-size: xx-large;
 }
 
@@ -87,21 +87,28 @@ a {
   flex-direction: column;
   position: relative;
   height: 90vh;
-  width: 100%;
+  width: 50%;
 }
 .price__title {
   text-align: center;
   font-size: larger;
   font-weight: bolder;
 }
-.price__ .price__image {
+.price__image {
   position: absolute;
   height: 100%;
   width: 50%;
 }
-.price__ .price__image--picture {
+.price__image--picture {
   height: 100%;
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.price__setting-instruction {
+  text-align: center;
+}
+
+.price-list-title__text {
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
